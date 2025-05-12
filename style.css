@@ -1,0 +1,33 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.background-overlay {
+  background: url('rendaextra.jpg') no-repeat center center/cover;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.15;
+  filter: brightness(0.5);
+}
+
+h2, h5 {
+  font-weight: bold;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.hero {
+  height: 100vh;
+  padding: 4rem 1rem;
+  background: transparent;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
